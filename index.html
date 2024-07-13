@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+        .title {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #e74c3c;
+        }
+        p {
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class="container">
+        <div class="section">
+            <div class="title">Ribs</div>
+            <p>Golden fingers
+            Indulge in our signature Smoky BBQ Ribs Platter, a feast for rib enthusiasts. Our ribs are slow-cooked to perfection, ensuring a tender, fall-off-the-bone experience that’s bursting with flavor. Here's what you can expect:
+            </p>
+        </div>
+        <div class="section">
+            <div class="title">Fillets
+            </div>
+            <p>Fine fillets
+A succulent, 8-ounce beef tenderloin grilled to perfection, served with a rich red wine reduction and accompanied by garlic mashed potatoes and seasonal vegetables.
+            </p>
+        </div>
+        <div class="section">
+            <div class="title">Pap</div>
+            <p>Sweet savour
+Soft, fluffy pap served with a generous helping of spicy chakalaka, a medley of tomatoes, beans, peppers, and onions. This zesty vegetable relish adds a burst of flavor and a touch of heat to your meal.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
